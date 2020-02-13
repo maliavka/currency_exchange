@@ -1,0 +1,521 @@
+    1  python3
+    2  echo "hello world"
+    3  pwd
+    4  cd
+    5  whoami
+    6  cd /
+    7  ls
+    8  cd
+    9  ls
+   10  ls - a
+   11  ls -a
+   12  ls -l
+   13  ls -la
+   14  pwd
+   15  mkdir hillel
+   16  ls
+   17  cd hillel
+   18  ls - la
+   19  ls -la
+   20  cd ..
+   21  pwd
+   22  cd hillel/
+   23  ls -la
+   24  nano example.py
+   25  python example.py
+   26  python example.py 
+   27  python3 example.py 
+   28  cd
+   29  cd /
+   30  cd \
+   31  ls
+   32  rm hillel/
+   33  rm -rf hillel/
+   34  ls
+   35  apt update
+   36  sudo apt update
+   37  mkdir hillel
+   38  cd hillel/
+   39  ls -la
+   40  echo "print('hello world')"
+   41  echo "print('hello world')" > example.py
+   42  cat example.py 
+   43  df -h
+   44  htop
+   45  sudo apt install htop
+   46  sudo apt install htop -y
+   47  htop
+   48  ls -la
+   49  cp example.py example_copy.py
+   50  ll
+   51  mv example.py example_mv.py
+   52  ll
+   53  cp example_copy.py ../
+   54  ls ..
+   55  ll
+   56  history
+   57  ls -la
+   58  mkdir test
+   59  ll
+   60  chmod u+x example_copy.py 
+   61  ll
+   62  which python3
+   63  /usr/bin/python3
+   64  which cp
+   65  ./example_copy.py
+   66  ll
+   67  groups
+   68  chmod uxo+x example_mv.py
+   69  cmod ugo+x example_mv.py
+   70  ll
+   71  chmod g+w -R hillel/
+   72  cd hillel/
+   73  echo "print('hello world')" > example.py
+   74  which python3
+   75  python3 -m venv env
+   76  sudo apt-get install python3-venv
+   77  python3 -m venv env
+   78  which python3
+   79  ls
+   80  . env/bin/activate
+   81  which python3
+   82  python
+   83  pip
+   84  pip install flask
+   85  pip freeze
+   86  pip uninstall pkd-resources
+   87  pip uninstall pkg-resources
+   88  pip freeze
+   89  pip freeze > requirements.txt
+   90  cat requirements.txt 
+   91  pip install -r requirements.txt 
+   92  python
+   93  deactivate
+   94  python3
+   95  cd hillel/
+   96  sudo apt install git
+   97  cd hillel/
+   98  ls -la
+   99  sudo apt install git
+  100  git --version
+  101  ls -la
+  102  git init
+  103  ls -la
+  104  git status
+  105  git add main.py
+  106  git status
+  107  git commit -m "my brand new commit"
+  108  git config --global user.email "marchenko.tetyana@gmail.com"
+  109  git config --global user.name "maliavka"
+  110  git commit -m "my brand new commit"
+  111  echo "hello" >> ex.txt
+  112  git init
+  113  git add ex.txt
+  114  git commit -m "first commit"
+  115  git remote add origin https://github.com/maliavka/hillel_T.git
+  116  git push -u origin master
+  117  git diff
+  118  git  status
+  119  git add ex.txt
+  120  git commit -m "second commit"
+  121  git branch -b branch2
+  122  git checkout -b branch2
+  123  git branch -a
+  124  git status
+  125  git add main.py
+  126  git commit -m "add"
+  127  git push origin branch2
+  128  git checkout master
+  129  git status
+  130  git branch
+  131  git checkout master
+  132  git add main.py
+  133  git commit -m "add"
+  134  git push origin master 
+  135  git pull origin master
+  136  ..
+  137  .. /
+  138  mkdir projects
+  139  cd projects/
+  140  ls -la
+  141  cd hillel/
+  142  python3 -m venv env
+  143  . env/bin/activate
+  144  pip install flask
+  145  python main.py
+  146  cd hillel/
+  147  ls -la
+  148  cd hillel/
+  149  pip install flask
+  150  sudo pip install flask
+  151  history
+  152  python3 -m venv env
+  153  . env/bin/activate
+  154  pip install flask
+  155  python main.py
+  156  pip freeze
+  157  cd hillel/
+  158  history
+  159  . env/bin/activate
+  160  python main.py
+  161  pip install flake8
+  162  pip freeze
+  163  pip freeze > requirements.txt 
+  164  flake8 .
+  165  python main.py
+  166  cd hillel/
+  167  git status
+  168  cd ../hillel_django/
+  169  ls -la
+  170  python3 -m venv env
+  171  . env/bin/activate
+  172  pip freeze
+  173  rm pkg-resources==0.0.0
+  174  sudo rm pkg-resources==0.0.0
+  175  pip freeze > requirements.txt
+  176  cat requirements.txt 
+  177  pip install django == 2
+  178  pip install django==2
+  179  deactivate
+  180  rm -rf env/
+  181  python3 -m venv env
+  182  . env/bin/activate
+  183  pip install django==2
+  184  cd ../hillel_django/
+  185  ls -la
+  186  history
+  187  cd ../hillel_django/
+  188  cd hillel/
+  189  cd hillel_django/
+  190  cd hillel/
+  191  ls -la
+  192  ..
+  193  cd ../
+  194  cd hillel_django/
+  195  ls -la
+  196  history
+  197  python3 -m venv env
+  198  . env/bin/activate
+  199  pip freeze
+  200  pip install django==2
+  201  rm -rf env/
+  202  deactivate
+  203  rm -rf env/
+  204  ls -la
+  205  python3 -m venv env
+  206  . env/bin/activate
+  207  pip install django==2
+  208  history
+  209  cd hillel_django/
+  210  ls -la
+  211  pip install django==2
+  212  . env/bin/activate
+  213  pip install django==2
+  214  pip freeze > requirements.txt 
+  215  django-admin startproject mysite .
+  216  python manage.py runserver
+  217  rm pkg-resources==0.0.0
+  218  sudo rm pkg-resources==0.0.0
+  219  rm -rf pkg-resources==0.0.0
+  220  cat requirements.txt 
+  221  django-admit startapp first_app
+  222  django-admin startapp first_app
+  223  python manage.py runserver
+  224  ls- la
+  225  ls -la
+  226  mkdir students_tracker
+  227  cd students_tracker/
+  228  python3 -m venv env
+  229  source env/bin/acivate
+  230  source env/bin/activate
+  231  pip install django==
+  232  cd students_tracker/
+  233  source env/bin/activate
+  234  pip install django==
+  235  pip install django==2.2.9
+  236  pip freeze 
+  237  pip uninstall pkg-resources==0.0.0
+  238  pip freeze > requirements.txt
+  239  cat requirements.txt 
+  240  nano .gitignore
+  241  git status
+  242  git init
+  243  git status
+  244  git add --all
+  245  git commit -m "initial commit"
+  246  git remote add origin https://github.com/maliavka/students_tracker.git
+  247  git push -u origin master
+  248  nano .gitignore
+  249  ls -la
+  250  mkdir src
+  251  cd src
+  252  django-admin startproject students_tracker .
+  253  ls -la
+  254  python manage.py runserver
+  255  ls -la
+  256  django-admin startapp students
+  257  python manage.py makemigrations
+  258  python manage.py migrate
+  259  python manage.py makemigrations
+  260  python manage.py migrate students
+  261  python manage.py shell
+  262  pip install ipython
+  263  pip install --upgrade setuptools
+  264  pip install ipython
+  265  python manage.py shell
+  266  pip freeze > ../requirements.txt
+  267  python manage.py shell
+  268  git add --all
+  269  history
+  270  git commit -m "second commit"
+  271  git remote add origin https://github.com/maliavka/students_tracker.git
+  272  git push -u origin master
+  273  git status
+  274  cd students_tracker/
+  275  . env/bin/activate
+  276  git status
+  277  git clone https://github.com/maliavka/students_tracker.git
+  278  cd src/
+  279  pip install faker
+  280  cd ..
+  281  pip freeze > requirements.txt 
+  282  python manage.py shell
+  283  cd src/
+  284  python manage.py shell
+  285  python manage.py generate_student
+  286  cd src/
+  287  cd students tracker/
+  288  cd students_tracker/
+  289  history
+  290  .env/bin/activate
+  291  . env/bin/activate
+  292  git clone https://github.com/maliavka/students_tracker.git
+  293  cd ..
+  294  git clone https://github.com/maliavka/students_tracker.git
+  295  cd students_tracker/
+  296  git clone https://github.com/maliavka/students_tracker.git
+  297  cd src/
+  298  python manage.py makemigrations --empty
+  299  python manage.py showmigrations
+  300  sudo apt install python3
+  301  python manage.py showmigrations
+  302  sudo apt install python3
+  303  python manage.py showmigrations
+  304  python3 manage.py showmigrations
+  305  pip install -r ../requirements.txt 
+  306  pip3 install -r ../requirements.txt 
+  307  cd students_tracker
+  308  python3
+  309  python3  -m venv env
+  310  . env/bin/activate
+  311  pip install -r requirements.txt 
+  312  cd src/
+  313  python manage.py showmigrations
+  314  python manage.py runserver
+  315  git status
+  316  git checkout-b branch2
+  317  git add --all
+  318  git commit -m "forms"
+  319  git remote origin https://github.com/maliavka/students_tracker.git
+  320  git push origin branch2
+  321  history
+  322  git remote add origin https://github.com/maliavka/students_tracker.git
+  323  git push origin branch2
+  324  git checkout -b branch2
+  325  git add --all
+  326  git commit -m "forms"
+  327  git remote add origin https://github.com/maliavka/students_tracker.git
+  328  git push origin branch2
+  329  cd students_tracker/
+  330  . env/bin/activate
+  331  flake8
+  332  pip install fkale8
+  333  cd src/
+  334  pip install fkale8
+  335  pip install flake8
+  336  flake8
+  337  python manage.py shell
+  338  python3
+  339  python manage.py shell
+  340  python manage.py runserver
+  341  cd students_tracker/
+  342  . env/bin/activate
+  343  pip install requests
+  344  ipython
+  345  python manage.py runserver
+  346  cd src/
+  347  python manage.py runserver
+  348  pip install django-debug-toolbar
+  349  cd ..
+  350  pip freeze > requirements.txt 
+  351  cd src/
+  352  cd students_tracker/
+  353  . env/bin/activate
+  354  cd src/
+  355  python manage.py make migrations
+  356  python manage.py makemigrations
+  357  python manage.py migrate
+  358  python manage.py makemigrations
+  359  python manage.py runserver
+  360  python manage.py makemigrations
+  361  python manage.py migrate
+  362  python manage.py generate_students
+  363  python manage.py makemigrations
+  364  python manage.py migrate
+  365  python manage.py makemigrations
+  366  python manage.py migrate
+  367  python manage.py generate_students
+  368  sudo apt-get update
+  369  sudo -u postgres psql
+  370  sudo -u postgresql psql
+  371  sudo service postgresql status
+  372  . env/bin/activate
+  373  cd src/
+  374  python manage.py runserver
+  375  python manage.py createsuperuser
+  376  python manage.py runserver
+  377  python manage.py generate_students
+  378  python manage.py runserver
+  379  python manage.py makemigrations
+  380  python manage.py migrate
+  381  python manage.py generate_students
+  382  python manage.py runserver
+  383  python manage.py generate_student
+  384  python manage.py runserver
+  385  python manage.py generate_student
+  386  python manage.py generate_students
+  387  python manage.py runserver
+  388  cd ..
+  389  . env/bin/activate
+  390  cd src/
+  391  python manage.py runserver
+  392  python manage.py generate_students
+  393  python manage.py makemigrations
+  394  python manage.py migrate
+  395  python manage.py generate_students
+  396  python manage.py runserver
+  397  python manage.py makemigrations
+  398  python manage.py migrate
+  399  python manage.py makemigrations
+  400  python manage.py migrate
+  401  python manage.py makemigrations
+  402  python manage.py migrate
+  403  python manage.py generate_students
+  404  python manage.py runserver
+  405  git init
+  406  git clone https://github.com/DmytroKaminskiy/students_tracker.git
+  407  cd students_tracker/
+  408  python3 -m venv env
+  409  . env/bin/activate
+  410  pip install requirement.txt
+  411  pip install requirements.txt
+  412  python3 -m venv env
+  413  . env/bin/activate
+  414  python manage.py runserver
+  415  . env/bin/activate
+  416  python manage.py -r requirements.txt
+  417  cds rc/
+  418  cd src/
+  419  python manage.py -r requirements.txt
+  420  cd ..
+  421  python manage.py -r requirements.txt
+  422  . env/bin/activate
+  423  cd src/
+  424  python manage.py runserver
+  425  python manage.py -r requirements.txt
+  426  cd ..
+  427  python manage.py -r requirements.txt
+  428  python manage.py runserver
+  429  cd src/
+  430  python manage.py runserver
+  431  cd ..
+  432  python manage.py -r requirements.txt
+  433  cd src/
+  434  python manage.py -r requirements.txt
+  435  cd sudents_tracker/
+  436  cd students_tracker/
+  437  cd src/
+  438  python manage.py runserver
+  439  python manage.py -r requirements.txt
+  440  cd students_tracker/
+  441  . env/bin/activate
+  442  sudo apt install nginx
+  443  sudo service nginx status
+  444  sudo service nginx restart
+  445  sudo service nginx status
+  446  cd /etc/nginx/
+  447  ls -la
+  448  cat nginx.conf
+  449  ls -la
+  450  cat sites-enabled/
+  451  cat sites-enabled/default
+  452  sudo nano /etc/hosts
+  453  sudo nano sites-available/default
+  454  nginx -t
+  455  sudo nginx -t
+  456  sudo service nginx restart
+  457  sudo nano sites-available/default
+  458  nginx -t
+  459  sudo nginx -t
+  460  sudo nano sites-available/default
+  461  sudo nginx -t
+  462  sudo service nginx restart
+  463  pip install gunicorn
+  464  pip freeze > requirements.txt
+  465  cd ..
+  466  cd students_tracker/
+  467  pip install gunicorn
+  468  pip freeze > requirements.txt
+  469  cd students_tracker/
+  470  cd ..
+  471  cd students_tracker/
+  472  python manage.py runserver
+  473  cd students_tracker/
+  474  . env/bin/activate
+  475  cd src/
+  476  pip install uwsgi
+  477  cd ..
+  478  cd 
+  479  pwd
+  480  ls -la
+  481  cd .ssh/
+  482  ls -la
+  483  ssh keygen -t rsa -b 4096 -C "marchenko.tetyana.gmail.com"
+  484  ssh keygen -t rsa -b 4096 -C "marchenko.tetyana@gmail.com"
+  485  ssh-keygen -t rsa -b 4096 -C "marchenko.tetyana@gmail.com"
+  486  cat id_rsa.pub
+  487  eval "$(ssh-agent -s)"
+  488  ssh-add id_rsa
+  489  cat id_rsa.pub
+  490  cd ..
+  491  git clone git@github.com:maliavka/currency_exchange.git
+  492  cd currency_exchange/
+  493  history >> history.txt
+  494  deactivate
+  495  python3 -m venv env
+  496  . env/bin/activate
+  497  git status
+  498  pip install django==2.2.10
+  499  pip freeze > requirements.txt
+  500  cd src/
+  501  mkdir src
+  502  cd src/
+  503  django-admin startproject currency_exchange .
+  504  ll
+  505  python manage.py runserver 8001
+  506  python manage.py startapp account
+  507  pip install flake8
+  508  flake8
+  509  cd ..
+  510  cd src/
+  511  which bash
+  512  ./manage.py
+  513  ./check.sh
+  514  ls -la
+  515  chmod u+x check.sh
+  516  ./check.sh
+  517  cd ..
+  518  ./check.sh
+  519  pip check
+  520  history >> history.txt
+  521  history > history.txt
